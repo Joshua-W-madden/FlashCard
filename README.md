@@ -1,3 +1,3 @@
-# Blog-Site
-A personal blog site where people can post 
+# Flash Card App
+A personal site were you can upload and practice flashcards. 
 
