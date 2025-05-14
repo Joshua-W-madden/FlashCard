@@ -1,0 +1,9 @@
+.CardDetails {
+ padding: 20px;
+}
+
+#fInput, #bInput{
+ display: inline-block;
+ margin: 10px;
+ margin-left: 0px;
+}
