@@ -1,10 +1,11 @@
+import { useState } from "react";
 import Flashcard from "./Card/Flashcard";
 
 function CardInfo(){
-    var flashInfo = {front:"", back:""};
+    
     return(
         <div className="CardDetails">
-            <form onSubmit={<Flashcard front={front}/>}>
+            <form>
                 <label htmlfor="front">Front: </label>
                 <input type="text" id='fInput' name= "front" />
                 <br/>
@@ -17,12 +18,6 @@ function CardInfo(){
                 <button type="reset">reset</button>
             </form>
         </div>
-    );
-}
-
-function sendCard(){
-    return(
-        <Flashcard front={front}/>
     );
 }
 

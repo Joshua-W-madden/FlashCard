@@ -1,4 +1,11 @@
+.Cards input{
+  padding-left: 80%;
+}
+.Cards h2{
+  text-align: center;
+}
 .Cards{
+  width: 300px;
   display: inline-block;
   margin: 7px;
   padding: 10px;
