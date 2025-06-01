@@ -9,9 +9,6 @@ function App() {
     <h1>Vite + React</h1>
 
     <CardInfo/>
-    <Flashcard/>
-    <Flashcard/><Flashcard/>
-  
     </>
   );
 }
